@@ -222,7 +222,7 @@ Service Two
     position: relative;
     display: block;
     background: var(--logistiq-gray-bg);
-    padding: 120px 0px 120px;
+    padding: 40px 0px 40px;
     z-index: 1;
 }
 

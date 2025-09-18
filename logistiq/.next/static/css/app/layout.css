@@ -3149,6 +3149,11 @@ About One
     padding: 120px 0px 120px;
     z-index: 1;
 }
+@media (max-width: 768px) {
+  .about-one {
+    padding: 40px 0;
+  }
+}
 
 .about-one__content {
     position: relative;
@@ -9834,7 +9839,7 @@ Service Two
     position: relative;
     display: block;
     background: var(--logistiq-gray-bg);
-    padding: 120px 0px 120px;
+    padding: 40px 0px 40px;
     z-index: 1;
 }
 
@@ -21082,7 +21087,7 @@ Main Header Three
 
 /* ===== Track Section ===== */
 .track-section {
-  padding: 64px 0;
+  padding: 34px 0;
   background: transparent; /* keep page bg; remove if you want darker band */
 }
 
@@ -21192,7 +21197,7 @@ Small screens
 
 /* Track Section */
 .track-section {
-  padding: 64px 0;
+  padding: 34px 0;
   background-color: #0F151E;
 }
 
@@ -21266,7 +21271,7 @@ Small screens
 
 /* Package Details Section */
 .package-section {
-  padding: 64px 0;
+  padding: 34px 0;
   background-color: #0b1324;
 }
 
@@ -21312,7 +21317,11 @@ Small screens
   gap: 20px;
   margin-bottom: 20px;
 }
-
+@media (max-width: 768px){
+  .package-card__grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
 .package-card__grid .label {
   font-size: 12px;
@@ -21370,7 +21379,7 @@ Small screens
    Tracking History section
    ========================= */
 .history-section {
-  padding: 64px 0;
+  padding: 34px 0;
   background-color: #0b1324; /* same bg as package-section for continuity */
 }
 

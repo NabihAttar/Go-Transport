@@ -10,6 +10,11 @@ About One
     padding: 120px 0px 120px;
     z-index: 1;
 }
+@media (max-width: 768px) {
+  .about-one {
+    padding: 40px 0;
+  }
+}
 
 .about-one__content {
     position: relative;
