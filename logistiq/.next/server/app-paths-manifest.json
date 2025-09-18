@@ -1,0 +1,8 @@
+{
+  "/not-found": "app/not-found.js",
+  "/index-dark/page": "app/index-dark/page.js",
+  "/service/page": "app/service/page.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/track/page": "app/track/page.js"
+}
